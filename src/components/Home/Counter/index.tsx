@@ -1,7 +1,7 @@
 import React from 'react'
 import { count } from '@/app/api/data'
 import Image from 'next/image'
-import { CountItem } from '@/types/blog'
+import { CountItem } from '@/types/counter'
 
 const Counter = ({ isColorMode }: { isColorMode: boolean }) => {
   return (
