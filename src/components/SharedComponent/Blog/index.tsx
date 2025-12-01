@@ -17,7 +17,7 @@ const Blog: React.FC = () => {
     <section
       className='flex flex-wrap justify-center dark:bg-darkmode'
       id='blog'>
-      {/* <div className='container mx-auto max-w-6xl'>
+      <div className='container mx-auto max-w-6xl'>
         <div className='flex items-baseline justify-between flex-wrap'>
           <h2
             className='sm:mb-11 mb-3 text-4xl font-bold text-midnight_text dark:text-white'
@@ -27,7 +27,7 @@ const Blog: React.FC = () => {
             Latest blog & news
           </h2>
           <Link
-            href='#'
+            href='/blog'
             className='flex items-center gap-3 text-base text-midnight_text dark:text-white dark:hover:text-primary font-medium hover:text-primary sm:pb-0 pb-3'
             data-aos='fade-left'
             data-aos-delay='200'
@@ -50,7 +50,7 @@ const Blog: React.FC = () => {
             </div>
           ))}
         </div>
-      </div> */}
+      </div>
     </section>
   )
 }
