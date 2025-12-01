@@ -10,21 +10,21 @@ export const menuItems = [
 ];
 
 export const count = [
-    // {
-    //     icon: getImgPath("/images/counter/star.svg"),
-    //     value: "YOUR_RATING",
-    //     description: "Your rating description (e.g., Client satisfaction rating)",
-    // },
-    // {
-    //     icon: getImgPath("/images/counter/admin.svg"),
-    //     value: "PROJECTS_COMPLETED",
-    //     description: "Number of projects completed (e.g., 50+ successful projects)",
-    // },
-    // {
-    //     icon: getImgPath("/images/counter/bag.svg"),
-    //     value: "YEARS_EXPERIENCE",
-    //     description: "Years of experience (e.g., 5+ years in software development)",
-    // },
+    {
+        icon: getImgPath("/images/counter/star.svg"),
+        value: "4.9",
+        description: "Client satisfaction rating based on completed projects",
+    },
+    {
+        icon: getImgPath("/images/counter/admin.svg"),
+        value: "50+",
+        description: "Successful projects delivered to clients worldwide",
+    },
+    {
+        icon: getImgPath("/images/counter/bag.svg"),
+        value: "5+",
+        description: "Years of experience in software development",
+    },
 ];
 
 export const Progress = [
@@ -32,7 +32,6 @@ export const Progress = [
     { title: 'Vue.js / Frontend', Progress: 85 },
     { title: 'Mysql Database & Data Management', Progress: 80 },
     { title: 'React/Next.js', Progress: 80 },
-    // { title: 'YOUR_SKILL_3', Progress: 80 }
 ];
 
 export const Servicebox = [
