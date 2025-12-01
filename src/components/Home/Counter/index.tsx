@@ -2,7 +2,14 @@ import React from 'react'
 import { count } from '@/app/api/data'
 import Image from 'next/image'
 
-const Counter = ({ isColorMode }: { isColorMode: Boolean }) => {
+// Define the type for count items
+interface CountItem {
+  icon: string;
+  value: string;
+  description: string;
+}
+
+const Counter = ({ isColorMode }: { isColorMode: boolean }) => {
   return (
     <section
       className={` ${
@@ -12,7 +19,7 @@ const Counter = ({ isColorMode }: { isColorMode: Boolean }) => {
       }`}>
       <div className='container mx-auto max-w-6xl px-4'>
         <div className='flex flex-wrap items-center md:justify-between justify-center md:gap-0 gap-9'>
-          {count.map((item, index) => (
+          {count.map((item: CountItem, index: number) => (
             <div
               key={index}
               className='flex flex-col items-center gap-[0.875rem]'
