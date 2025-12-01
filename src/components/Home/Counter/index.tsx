@@ -48,3 +48,5 @@ const Counter = ({ isColorMode }: { isColorMode: boolean }) => {
 }
 
 export default Counter
+
+// Force rebuild
