@@ -1,13 +1,7 @@
 import React from 'react'
 import { count } from '@/app/api/data'
 import Image from 'next/image'
-
-// Define the type for count items
-interface CountItem {
-  icon: string;
-  value: string;
-  description: string;
-}
+import { CountItem } from '@/types/blog'
 
 const Counter = ({ isColorMode }: { isColorMode: boolean }) => {
   return (

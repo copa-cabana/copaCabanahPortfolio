@@ -6,3 +6,9 @@ export type Blog = {
   coverImage?: string;
   date: string;
 };
+
+export type CountItem = {
+  icon: string;
+  value: string;
+  description: string;
+};
