@@ -4,6 +4,9 @@ import Image from 'next/image'
 import { CountItem } from '@/types/counter'
 
 const Counter = ({ isColorMode }: { isColorMode: boolean }) => {
+  // Create a typed copy of the count array to ensure TypeScript can infer the type correctly
+  const typedCount: CountItem[] = count
+  
   return (
     <section
       className={` ${
@@ -13,7 +16,7 @@ const Counter = ({ isColorMode }: { isColorMode: boolean }) => {
       }`}>
       <div className='container mx-auto max-w-6xl px-4'>
         <div className='flex flex-wrap items-center md:justify-between justify-center md:gap-0 gap-9'>
-          {count.map((item: CountItem, index: number) => (
+          {typedCount.map((item: CountItem, index: number) => (
             <div
               key={index}
               className='flex flex-col items-center gap-[0.875rem]'
