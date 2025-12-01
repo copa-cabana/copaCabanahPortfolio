@@ -44,7 +44,7 @@ export const DocNavigation = () => {
             onClick={() => getNavItem(item.hash)}
             className={`py-2.5 hover:bg-primary/20 hover:text-primary dark:hover:text-primary xl:min-w-60 lg:min-w-52 min-w-full px-4 rounded-md text-midnight_text text-base font-medium  ${
               item.hash === navItem
-                ? 'bg-primary text-white hover:bg-primary! hover:text-white! dark:text-opacity-100! dark:hover:text-white'
+                ? 'bg-primary text-white hover:bg-primary hover:text-white dark:text-opacity-100 dark:hover:text-white'
                 : 'dark:text-white/60'
             }`}>
             {item.navItem}

@@ -1,5 +1,4 @@
 import { getImgPath } from "@/utils/image";
-import { CountItem } from "@/types/counter";
 
 export const menuItems = [
     { name: "Home", href: "/" },
@@ -10,7 +9,7 @@ export const menuItems = [
     { name: "Blog", href: "/#blog" },
 ];
 
-export const count: CountItem[] = [
+export const count = [
     {
         icon: getImgPath("/images/counter/star.svg"),
         value: "4.9",
@@ -136,3 +135,5 @@ export const portfolioinfo = [
     },
     
 ]
+
+// Force rebuild

@@ -94,7 +94,7 @@ const SignUp = ({signUpOpen}:{signUpOpen?:any}) => {
         <div className="mb-9">
           <button
             type="submit"
-            className="flex w-full cursor-pointer items-center justify-center rounded-md bg-primary px-5 py-3 text-base text-white transition duration-300 ease-in-out hover:bg-darkprimary! dark:hover:bg-darkprimary!"
+            className="flex w-full cursor-pointer items-center justify-center rounded-md bg-primary px-5 py-3 text-base text-white transition duration-300 ease-in-out hover:bg-darkprimary dark:hover:bg-darkprimary"
           >
             Sign Up {loading && <Loader />}
           </button>

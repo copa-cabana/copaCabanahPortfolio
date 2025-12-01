@@ -130,7 +130,7 @@ const Footer: FC = () => {
                 <input
                   type='email'
                   placeholder='Email*'
-                  className='p-4 text-base border-transparent rounded-s-lg rounded-e-none! outline-0 focus:border-primary dark:focus:border-primary w-[calc(100%_-_137px)] flex bg-white dark:bg-midnight_text dark:text-white dark:border-solid dark:border dark:border-border_color'
+                  className='p-4 text-base border-transparent rounded-s-lg rounded-e-none outline-0 focus:border-primary dark:focus:border-primary w-[calc(100%_-_137px)] flex bg-white dark:bg-midnight_text dark:text-white dark:border-solid dark:border dark:border-border_color'
                 />
                 <button
                   type='submit'

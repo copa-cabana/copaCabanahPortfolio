@@ -39,7 +39,7 @@ const Hero = () => {
                 width={40}
                 height={40}
                 quality={100}
-                className='w-10! h-10! rounded-full border border-solid border-white -ml-0'
+                className='w-10 h-10 rounded-full border border-solid border-white -ml-0'
               />
               <Image
                 src={getImgPath('/images/hero/hero-profile-2.jpg')}
@@ -47,7 +47,7 @@ const Hero = () => {
                 width={40}
                 height={40}
                 quality={100}
-                className='w-10! h-10! rounded-full border border-solid border-white -ml-3'
+                className='w-10 h-10 rounded-full border border-solid border-white -ml-3'
               />
               <Image
                 src={getImgPath('/images/hero/hero-profile-3.jpg')}
@@ -55,7 +55,7 @@ const Hero = () => {
                 width={40}
                 height={40}
                 quality={100}
-                className='w-10! h-10! rounded-full border border-solid border-white -ml-3'
+                className='w-10 h-10 rounded-full border border-solid border-white -ml-3'
               />
             </div>
             <div>
