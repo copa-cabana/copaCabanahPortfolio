@@ -15,11 +15,11 @@ const Hero = () => {
           <div className='flex gap-2 items-center'>
             <span className='w-3 h-3 rounded-full bg-success'></span>
             <span className='font-medium text-midnight_text text-sm dark:text-white/50'>
-              SOFTWARE DEVELOPER | WEB 3 ENTHUSIAST
+              Software Developer | Web 3 Enthusiast
             </span>
           </div>
           <h1 className='text-midnight_text font-bold dark:text-white text-4xl  md:text-5xl md:leading-[1.15]'>
-            SAMUEL OLORUNGBOHUN | COPACABANAH
+            Samuel Olorungbohun| copaCabanah
           </h1>
           <p className='text-grey dark:text-white/70 text-xl font-semibold'>
             I am a software developer who builds scalable, user-centric digital solutions that solve real-world problems.
