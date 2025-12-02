@@ -15,7 +15,7 @@ const Hero = () => {
           <div className='flex gap-2 items-center'>
             <span className='w-3 h-3 rounded-full bg-success'></span>
             <span className='font-medium text-midnight_text text-sm dark:text-white/50'>
-              SOFTWARE DEVELOPER | WEB 3 ??ENTHUSIAST
+              SOFTWARE DEVELOPER | WEB 3 ENTHUSIAST
             </span>
           </div>
           <h1 className='text-midnight_text font-bold dark:text-white text-4xl  md:text-5xl md:leading-[1.15]'>
