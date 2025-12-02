@@ -19,7 +19,7 @@ const Hero = () => {
             </span>
           </div>
           <h1 className='text-midnight_text font-bold dark:text-white text-4xl  md:text-5xl md:leading-[1.15]'>
-            SAMUEL OLORUNGBOHUN
+            SAMUEL OLORUNGBOHUN | COPACABANAH
           </h1>
           <p className='text-grey dark:text-white/70 text-xl font-semibold'>
             I am a software developer who builds scalable, user-centric digital solutions that solve real-world problems.
