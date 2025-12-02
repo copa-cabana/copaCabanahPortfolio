@@ -5,16 +5,16 @@ const basePath = isProd ? `/venus-nextjs` : "";
 
 const nextConfig = {
   srcDir: "src",
-  output: "export",
-  basePath,
-  assetPrefix: basePath,
-  images: {
-    unoptimized: true,
-  },
-  trailingSlash: true,
-  env: {
-    NEXT_PUBLIC_BASE_PATH: basePath,
-  },
+  // output: "export",
+  // basePath,
+  // assetPrefix: basePath,
+  // images: {
+  //   unoptimized: true,
+  // },
+  // trailingSlash: true,
+  // env: {
+  //   NEXT_PUBLIC_BASE_PATH: basePath,
+  // },
 };
 
 export default nextConfig;
