@@ -22,7 +22,7 @@ export default function Home() {
       <Progresswork isColorMode={false} />
       <Services />
       <Portfolio />
-      <Testimonial />
+      {/* <Testimonial /> */}
       <Blog />
       <Contactform />
     </main>

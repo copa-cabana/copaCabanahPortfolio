@@ -25,7 +25,7 @@ Reach out and let’s turn your vision into a real, impactful solution."
       />
       <ContactInfo />
       <ContactForm />
-      <Location />
+      {/* <Location /> */}
     </>
   );
 };

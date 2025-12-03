@@ -33,7 +33,7 @@ const Hero = () => {
           <div className='flex items-center mt-12 gap-4'>
             <div className='flex items-center'>
               {/* You can replace these with your own profile images or remove them */}
-              <Image
+              {/* <Image
                 src={getImgPath('/images/hero/hero-profile-1.jpg')}
                 alt='hero-image'
                 width={40}
@@ -56,7 +56,7 @@ const Hero = () => {
                 height={40}
                 quality={100}
                 className='w-10 h-10 rounded-full border border-solid border-white -ml-3'
-              />
+              /> */}
             </div>
             <div>
               <p className='text-sm font-normal text-grey max-w-56'>

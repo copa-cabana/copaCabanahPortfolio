@@ -12,13 +12,15 @@ export const menuItems = [
 export const count = [
     {
         icon: getImgPath("/images/counter/star.svg"),
-        value: "4.9",
-        description: "Client satisfaction rating based on completed projects",
+        // value: "4.9",
+        // description: "Client satisfaction rating based on completed projects",
+        description: "Client satisfaction",
     },
     {
         icon: getImgPath("/images/counter/admin.svg"),
-        value: "50+",
-        description: "Successful projects delivered to clients worldwide",
+        // value: "50+",
+        // description: "Successful projects delivered to clients worldwide",
+        description: "Successful projects ",
     },
     {
         icon: getImgPath("/images/counter/bag.svg"),
@@ -56,79 +58,79 @@ export const portfolioinfo = [
     {
         image: getImgPath('/images/portfolio/cozycasa.png'),
         alt: 'Project 1',
-        title: 'Project 1 Name',
+        title: 'Agent Dashboard (Multi-Tenancy Environment)',
         slug: 'project-1',
-        info: 'Project Type',
+        info: 'Learners Management System',
         Class: 'md:mt-0'
     },
+    // {
+    //     image: getImgPath('/images/portfolio/human.png'),
+    //     alt: 'Project 2',
+    //     title: 'Agent-Side Modules Management',
+    //     slug: 'project-2',
+    //     info: 'Project Type',
+    //     Class: 'md:mt-24'
+    // },
     {
         image: getImgPath('/images/portfolio/mars.png'),
-        alt: 'Project 2',
-        title: 'Project 2 Name',
-        slug: 'project-2',
-        info: 'Project Type',
-        Class: 'md:mt-24'
-    },
-    {
-        image: getImgPath('/images/portfolio/humans.png'),
         alt: 'Project 3',
-        title: 'Project 3 Name',
+        title: 'School Dashboard (Analytics & Activities)',
         slug: 'project-3',
-        info: 'Project Type',
+        info: 'Learners Management System',
         Class: 'md:mt-0'
     },
-    {
-        image: getImgPath('/images/portfolio/roket-squred.png'),
-        alt: 'Project 4',
-        title: 'Project 4 Name',
-        slug: 'project-4',
-        info: 'Project Type',
-        Class: 'md:mt-24'
-    },
+    // {
+    //     image: getImgPath('/images/portfolio/roket-squred.png'),
+    //     alt: 'Project 4',
+    //     title: 'School Creation & Management System',
+    //     slug: 'project-4',
+    //     info: 'Project Type',
+    //     Class: 'md:mt-24'
+    // },
     {
         image: getImgPath('/images/portfolio/panda-logo.png'),
         alt: 'Project 5',
-        title: 'Project 5 Name',
+        title: 'Scheme of Work Feature',
         slug: 'project-5',
-        info: 'Project Type',
+        info: 'Learners Management System',
         Class: 'md:mt-0'
     },
+    // {
+    //     image: getImgPath('/images/portfolio/humans.png'),
+    //     alt: 'Project 6',
+    //     title: 'Subscription Management Feature',
+    //     slug: 'project-6',
+    //     info: 'Project Type',
+    //     Class: 'md:mt-0'
+    // },
     {
-        image: getImgPath('/images/portfolio/humans.png'),
-        alt: 'Project 6',
-        title: 'Project 6 Name',
-        slug: 'project-6',
-        info: 'Project Type',
-        Class: 'md:mt-0'
-    },
-    {
-        image: getImgPath('/images/portfolio/cozycasa.png'),
+        image: getImgPath('/images/portfolio/allocation.png'),
         alt: 'Project 7',
-        title: 'Project 7 Name',
+        title: 'Allocation Feature (Position Allocation)',
         slug: 'project-7',
-        info: 'Project Type',
+        info: 'Learners Management System',
         Class: 'md:mt-24'
     },
     {
-        image: getImgPath('/images/portfolio/mars.png'),
+        image: getImgPath('/images/portfolio/student-registration.png'),
         alt: 'Project 8',
-        title: 'Project 8 Name',
+        title: 'Student Registration Feature',
         slug: 'project-8',
-        info: 'Project Type',
+        info: 'Learners Management System',
         Class: 'md:mt-0'
     },
+    // {
+    //     image: getImgPath('/images/portfolio/panda-logo.png'),
+    //     alt: 'Project 9',
+    //     title: 'Bursary Module (Student Account, Wallet, Online Transactions)',
+    //     slug: 'project-9',
+    //     info: 'Project Type',
+    //     Class: 'md:mt-24'
+    // },
     {
-        image: getImgPath('/images/portfolio/panda-logo.png'),
-        alt: 'Project 9',
-        title: 'Project 9 Name',
-        slug: 'project-9',
-        info: 'Project Type',
-        Class: 'md:mt-24'
-    },
-    {
-        image: getImgPath('/images/portfolio/roket-squred.png'),
+        image: getImgPath('/images/portfolio/attendance.png'),
         alt: 'Project 10',
-        title: 'Project 10 Name',
+        title: 'Attendance Feature',
         slug: 'project-10',
         info: 'Project Type',
         Class: 'md:mt-0'

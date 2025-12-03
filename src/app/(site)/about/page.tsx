@@ -18,7 +18,7 @@ const page = () => {
     <>
       <HeroSub
         title="About Me"
-        description="YOUR ABOUT PAGE DESCRIPTION - Learn more about my journey, skills, and passion"
+        description="I’m a software developer passionate about building clean, user-focused digital experiences. Skilled in frontend technologies and real-world projects, I combine creativity, problem-solving, and continuous learning to deliver meaningful solutions."
         breadcrumbLinks={breadcrumbLinks}
       />
        <Counter isColorMode={true} />
