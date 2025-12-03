@@ -139,12 +139,21 @@ const Contactform = () => {
                     </p>
                   </div>
                 </div>
-                <div className='w-full'>
+                {/* <div className='w-full'>
                   <button
                     className='w-full bg-primary hover:bg-blue-700 text-white py-3 rounded-lg'
                     type='submit'>
                     Submit Inquiry
                   </button>
+                </div> */}
+
+                <div className='w-full'>
+                  <a
+                    href='mailto:olorungbohunsamuel@gmail.com'
+                    className='block w-full bg-primary hover:bg-blue-700 text-white py-3 rounded-lg text-center transition-colors'
+                  >
+                    Submit Inquiry
+                  </a>
                 </div>
               </form>
             </div>
