@@ -54,7 +54,7 @@ const Progresswork = ({ isColorMode }: { isColorMode: Boolean }) => {
               I build end-to-end software solutions that are scalable, efficient, and user-focused.
             </h2>
             <p className='text-gray dark:text-white/70 text-base font-semibold'>
-              With 5+ years of hands-on experience, I design, develop, and maintain applications that solve real-world problems. I specialize in creating intuitive front-end experiences, robust back-end systems, and integrating advanced tools like AI and automation. I bring problem-solving, leadership, and a product-minded approach to every project, ensuring that each solution delivers tangible value for users and organizations.
+              With 4+ years of hands-on experience, I design, develop, and maintain applications that solve real-world problems. I specialize in creating intuitive front-end experiences, robust back-end systems. I bring problem-solving, leadership, and a product-minded approach to every project, ensuring that each solution delivers tangible value for users and organizations.
             </p>
 
             <div className='block mx-auto pt-12'>
