@@ -49,7 +49,7 @@ export const Servicebox = [
     },
     {
         icon: getImgPath('/images/services/ux-design-product_2.svg'),
-        title: 'AI & Automation Integration',
+        title: 'AI Integration',
         description: 'I integrate AI tools and intelligent workflows into existing systems to improve efficiency, reduce manual effort, and deliver innovative experiences that scale with your organization.',
     },
 ]
