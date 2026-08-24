@@ -47,11 +47,11 @@ export const Servicebox = [
         title: 'Product Design & Technical Consulting',
         description: 'I provide technical guidance and product-focused solutions, helping organizations plan, architect, and implement systems that align with their goals. This includes workflow optimization, technology selection, and strategy execution.',
     },
-    // {
-    //     icon: getImgPath('/images/services/ux-design-product_2.svg'),
-    //     title: 'AI & Automation Integration',
-    //     description: 'I integrate AI tools, automation scripts, and intelligent workflows into existing systems to improve efficiency, reduce manual effort, and deliver innovative experiences that scale with your organization.',
-    // },
+    {
+        icon: getImgPath('/images/services/ux-design-product_2.svg'),
+        title: 'AI & Automation Integration',
+        description: 'I integrate AI tools and intelligent workflows into existing systems to improve efficiency, reduce manual effort, and deliver innovative experiences that scale with your organization.',
+    },
 ]
 
 export const portfolioinfo = [
