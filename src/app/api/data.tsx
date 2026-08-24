@@ -24,7 +24,7 @@ export const count = [
     },
     {
         icon: getImgPath("/images/counter/bag.svg"),
-        value: "5+",
+        value: "4+",
         description: "Years of experience in software development",
     },
 ];
