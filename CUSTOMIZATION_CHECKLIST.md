@@ -23,7 +23,7 @@ Use this checklist to replace all placeholder information with your own details:
 ## Services
 - [ ] Service 1 Title & Description (in data.tsx - Servicebox array)
 - [ ] Service 2 Title & Description (in data.tsx - Servicebox array)
-- [ ] Service 3 Title & Description (in data.tsx - Servicebox array)
+
 
 ## Portfolio Projects
 - [ ] Project 1 Details (in data.tsx - portfolioinfo array)
