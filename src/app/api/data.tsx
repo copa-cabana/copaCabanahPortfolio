@@ -132,7 +132,7 @@ export const portfolioinfo = [
         alt: 'Project 10',
         title: 'Attendance Feature',
         slug: 'project-10',
-        info: 'Project Type',
+        info: 'Learners Management System',
         Class: 'md:mt-0'
     },
     
